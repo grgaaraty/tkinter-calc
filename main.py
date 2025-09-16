@@ -36,11 +36,7 @@ def handle_button_click(clicked_button_text):
             result_var.set("Error")
     else:
         result_var.set(current_text + clicked_button_text)
-color_light_gray = "#D4D4D2"
-color_black = "#1C1C1C"
-color_dark_gray = "#505050"
-color_orange = "#FF9500"
-color_white = "white"
+
 # Create the main window
 root = tk.Tk()
 root.title("Calc by Aarati")
